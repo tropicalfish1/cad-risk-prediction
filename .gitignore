@@ -18,8 +18,8 @@ huaweidata/
 *.csv
 *.npz
 
-# 大型JSON文件（模型等）
-*.json
+# 大型JSON文件排除（保留03_models）
+# *.json
 
 # 结构化大数据
 structured/
