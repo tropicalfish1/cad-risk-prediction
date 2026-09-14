@@ -1,0 +1,43 @@
+# Python虚拟环境
+.venv/
+__pycache__/
+*.pyc
+
+# 大模型文件
+*.pth
+*.pt
+*.pkl
+*.joblib
+
+# 原始数据（体积过大）
+*.zip
+*.jsonl
+huaweidata/
+
+# 大型数据文件
+*.csv
+*.npz
+
+# 大型JSON文件（模型等）
+*.json
+
+# 结构化大数据
+structured/
+05_results/structured_results/
+
+# 敏感数据
+*.credentials
+*.key
+*.pem
+
+# 临时文件
+*.tmp
+*.log
+*.lock
+
+# IDE
+.idea/
+.vscode/
+
+# Git
+.git/
